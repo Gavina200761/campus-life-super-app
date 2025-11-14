@@ -10,4 +10,41 @@ body {
     padding: 40px 20px;
     margin: 0 auto;
     border-radius: 8px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.7);
+}
+
+.blue-panel {
+    background-color: #003468;
+    padding: 40px;
+    color: white;
+    height: 100vh;
+    width: 75%;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.7);
+}
+
+.blue {
+    background-color:#003468;
+    color: white;
+}
+
+
+.outpage {
+    background-color: gold;
+    width: 420px;
+    border-radius: 12px;
+}
+
+.midlink {
+    display: flex;
+    flex-direction: column;
+    gap: 125px;
+    width: 50px;
+}
+
+.innerout {
+    display: flex;
+    border: 10px solid black;
+    border-radius: 8px;
+    height: 98%;
+    width: 98%;
 }
