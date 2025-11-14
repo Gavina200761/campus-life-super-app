@@ -43,8 +43,17 @@ body {
 
 .innerout {
     display: flex;
+    flex-direction: column;
     border: 10px solid black;
     border-radius: 8px;
     height: 98%;
     width: 98%;
+
+    text-align: center;
+}
+
+.btn {
+    background-color: #003468;
+    color: white;
+    /*Correct button size*/
 }
