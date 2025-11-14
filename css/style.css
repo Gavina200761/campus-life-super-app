@@ -22,11 +22,29 @@ body {
     box-shadow: 0 8px 20px rgba(0,0,0,0.7);
 }
 
-.blue {
+.blue-foot {
     background-color:#003468;
     color: white;
+    width: 100%;
+    padding: 100px 0px;
 }
 
+.tools-cont {
+    background-color: #003468;
+    padding: 300px 0px;
+    margin-bottom: 45px;
+    color: white;
+    border-radius: 8px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.7);
+}
+
+.welbal-cont {
+    border: 5px solid black;
+    padding: 300px 0px;
+    margin-bottom: 45px;
+    border-radius: 8px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.7);
+}
 
 .outpage {
     background-color: gold;
