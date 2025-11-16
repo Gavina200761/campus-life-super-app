@@ -1,16 +1,30 @@
 body {
     background-color: gold;
 }
+.blue {
+    background-color: #003468;
+    color: white;
+    height: 100vh;
+    width: 75%;
 
-#head {
+    display: flex;
+    flex-direction: column;
+}
+
+.head {
     font-size: 50px;
     font-weight: bold;
+}
 
+.header {
     border: 10px solid black;
     padding: 40px 20px;
-    margin: 0 auto;
     border-radius: 8px;
+    background-color: gold;
     box-shadow: 0 8px 20px rgba(0,0,0,0.7);
+    margin: 25px;
+    color: black;
+    text-align: center;
 }
 
 .blue-panel {
@@ -26,12 +40,12 @@ body {
     background-color:#003468;
     color: white;
     width: 100%;
+    height: 100vh;
     padding: 100px 0px;
 }
 
 .tools-cont {
     background-color: #003468;
-    padding: 300px 0px;
     margin-bottom: 45px;
     color: white;
     border-radius: 8px;
@@ -40,7 +54,6 @@ body {
 
 .welbal-cont {
     border: 5px solid black;
-    padding: 300px 0px;
     margin-bottom: 45px;
     border-radius: 8px;
     box-shadow: 0 8px 20px rgba(0,0,0,0.7);
@@ -55,8 +68,8 @@ body {
 .midlink {
     display: flex;
     flex-direction: column;
-    gap: 125px;
-    width: 50px;
+    width: 25%;
+    margin-top: 45px;
 }
 
 .innerout {
@@ -74,4 +87,49 @@ body {
     background-color: #003468;
     color: white;
     /*Correct button size*/
+}
+
+.calendar {
+    background-color: #003468;
+    border-radius: 8px;
+    height: 500px;
+    margin: 20px;
+    color: white;
+}
+
+.right-cont {
+    display: flex;
+    flex-direction: column;
+}
+
+.facts {
+    background-color: #003468;
+    height: 45%;
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 12px;
+    color: white;
+}
+
+.rulink {
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+}
+.calendarlink {
+    display: flex;
+    flex-direction: column; 
+}
+
+.problems {
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+.sol {
+    width: 50%;
+    border: 10px solid black;
+    border-radius: 8px;
+    margin-top: 25px;
 }

@@ -12,17 +12,28 @@
     <link rel="stylesheet" href ="/css/style.css">
 </head>
 <body>
-    <div>
+    <div class="container right-cont">
         <!--This is the heading of the wellness & Balance page.-->
-        <section class="container justify-content-center">
-            <h1 class="text-center mt-4 mb-5" id="head">BALANCE & WELLNESS</h1>
-        </section>
+        <div class="header">
+            <h1 class="head">BALANCE & WELLNESS</h1>
+        </div>
         <!--This section will hold an all in one hub to increase efficacy.-->
         <div class="container d-flex justify-content-center justify-content-between welbal-cont">
-            <div>
-                <a class="btn btn-primary btn-lg" href="course-campus-tools.html">Click here for tools</a>
-                <a class="btn btn-primary btn-lg" href="index.html">Click here to go home</a>
-            </div>
+            <!--This section will be used to display the calendar API-->
+            <section class="container calendar">
+                <h3>Want a display of the important dates? Here's a calendar with them all.</h3>
+            </section>
+            <!--This section will hold links related to wellness and balance.-->
+            <section class="container d-flex justify-content-center right-cont">
+                <div class="container facts">
+                    <h3>Here's a random useful tip.</h3>
+                    <button class="btn btn-outline-primary w-25 h-25">CLICK FOR FACT</button>
+                </div>
+                <div class="container d-flex justify-content-center justify-content-between linkss">
+                    <a class="btn btn-primary btn-lg" href="course-campus-tools.html">Click here for tools</a>
+                    <a class="btn btn-primary btn-lg" href="index.html">Click here to go home</a>                
+                </div>
+            </section>
         </div>
     </div>
     <!--This footer will contain other useful links that can redirect to other resources or other pages.-->
