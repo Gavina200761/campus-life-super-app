@@ -1,6 +1,14 @@
 /*The following section of code is for all pages*/
-body {
+html, body {
     background-color: gold;
+    height: 100%;
+}
+body {
+    display: flex;
+    flex-direction: column;
+}
+footer {
+    margin-top: auto;
 }
 .blue {
     background-color: #003468;
@@ -9,6 +17,8 @@ body {
     min-height: 100vh;
     margin: 0 auto;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     flex-direction: column;
 }
 .head {
@@ -25,12 +35,17 @@ body {
     color: black;
     text-align: center;
 }
+.header-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
 .blue-foot {
     background-color:#003468;
     color: white;
-    width: 100%;
-    height: 100vh;
-    padding: 100px 0px;
+    padding: 40px 0px;
+    text-align: center;
 }
 .btn {
     background-color: #003468;
@@ -44,7 +59,8 @@ body {
 /*The following section of code is for the home page*/
 .outpage {
     background-color: gold;
-    width: 420px;
+    width: 35vw;
+    max-width: 600px;
     border-radius: 12px;
 }
 .midlink {
@@ -84,6 +100,11 @@ body {
     font-size: 1.1rem;
     pointer-events: none;
 }
+.side-img {
+    width: 120px;
+    height: auto;
+    margin: 20px;
+}
 /*The following section of code is for the campus tools page*/
 .tools-cont {
     background-color: #003468;
@@ -103,6 +124,45 @@ body {
     flex-direction: column;
     margin-top: 25px;
     margin-bottom: 20px;
+}
+.tool-card {
+    background-color: #003468;
+    padding: 30px 20px;
+    border-radius: 15px;
+    text-align: center;
+    color: white;
+    border: 3px solid gold;
+    min-height: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.card-title {
+    font-weight: bold;
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+}
+.tool-text {
+    font-size: 1rem;
+    opacity: 0.9;
+    margin-bottom: 20px;
+}
+.tool-btn {
+    background-color: gold;
+    color: #003468;
+    font-weight: bold;
+    border-radius: 8px;
+    width: 100%;
+    padding: 10px 12px;
+}
+.tool-btn-outline {
+    background-color: transparent;
+    border: 2px solid gold;
+    color: gold;
+    font-weight: bold;
+    border-radius: 8px;
+    width: 100%;
+    padding: 10px 12px;
 }
 /*The following section of code is for the wellness page*/
 .welbal-cont {

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--This is my home page and it will include sections for the other webpages linked, as well as general information for the student/visitor.-->
+    <!--This is my tools page and it includes sections for the other webpages linked, as well as general information for the student/visitor.-->
     <title>Campus Life Super App</title>
     <link rel="icon" type="image/x-icon" href="images/plus.jpg">
     <!--This is the connection to bootstrap.-->
@@ -12,37 +12,125 @@
     <link rel="stylesheet" href ="css/style.css">
 </head>
 <body>
-    <div class="container right-cont">
+    <div class="container">
         <!--This is the heading of the course and campus tools page.-->
-        <div class="header">
+        <div class="header mb-4">
             <h1 class="head">COURSE & CAMPUS TOOLS</h1>
         </div>
         <!--This section will hold common headaches and provide the proper resouces to help.-->
-        <div class="container d-flex justify-content-center tools-cont"> <!--Add a map on the right side of the content.-->
-            <div class="problems">
-                <h2 class="text-center">Here are some of the most common issues faced at Reinhardt, 
-                    and here are some helpful tools and tips to assist.</h2>
-                <div class="sol">
-                    <h3>Deadlines aren't always clear, and it is difficult to meet them when they are not openly displayed.
-                        Here is a link to the academic calendar that provides all important dates.
-                    </h3>
+        <div class="container my-5">
+            <div class="text-center mb-4">
+                <h2 class="fw-bold">Common Problems at Reinhardt & Useful Tools That Can Help</h2>
+                <p>Look below and quickly solve a problem.</p>
+            </div>
+            <div class="row g-4">
+                <!--This card will help students with upcoming deadlines.-->
+                <div class="col-md-4">
+                    <div class="tool-card shadow">
+                        <h3 class="card-title">Sneaky Deadlines</h3>
+                        <p class="card-text">
+                            Deadlines aren't always clear, and it can be helpful if they are openly displayed. 
+                            Here is a link to the academic calendar with all important dates.
+                        </p>
+                        <a href="https://www.reinhardt.edu/wp-content/uploads/2025-2026-Academic-Calendar.pdf" class="btn tool-btn" target="_blank">
+                            View Academic Calendar
+                        </a>
+                    </div>
                 </div>
-                <div class="sol">
-                    <h3>The kind of teacher you have can be the difference between passing or failing a class,
-                        so click on this link to see the list of professors at RU. And feel free to leave a comment.
-                    </h3>
+                <!--Card to direct visitors to professor directory.-->
+                <div class="col-md-4">
+                    <div class="tool-card shadow">
+                        <h3 class="card-title">Know Your Professor</h3>
+                        <p class="card-text">
+                            Your teacher can be the difference between passing or failing a class, 
+                            so click to see all professors at RU and if they are rated.
+                        </p>
+                        <a href="https://www.reinhardt.edu/faculty-and-staff/employee-directory/" class="btn tool-btn mb-2" target="_blank">
+                            Faculty Directory
+                        </a><br>
+                        <a href="https://www.ratemyprofessors.com/" class="btn tool-btn-outline" target="_blank">
+                            Rate My Professor
+                        </a>
+                    </div>
                 </div>
-                <div class="sol">
-                    <h3>Always late to class because you're still new to RU's campus? Here is a map you can download 
-                        to help navigate.
-                    </h3>
-                </div>                                
+                <!--Card to direct visitors to downloadable map.-->
+                <div class="col-md-4">
+                    <div class="tool-card shadow">
+                        <h3 class="card-title">Need Help Navigating?</h3>
+                        <p class="card-text">
+                            Always late to class because you're still new to RU's campus? 
+                            Download this map for some help getting around.
+                        </p>
+                        <a href="https://www.reinhardt.edu/wp-content/uploads/campus_map_all_parking.pdf" class="btn tool-btn" target="_blank">
+                            Downloadable Campus Map
+                        </a>
+                    </div>
+                </div>                           
+            </div>
+            <div class="row g-4 mt-2">
+                <!--This card will help students with student support.-->
+                <div class="col-md-4">
+                    <div class="tool-card shadow">
+                        <h3 class="card-title">Contact Student Support</h3>
+                        <p class="card-text">
+                            When issues that are out of your control appear, 
+                            use these links to contact someone who can help.
+                        </p>
+                        <a href="https://www.reinhardt.edu/faculty-and-staff/technology-services/" class="btn tool-btn" target="_blank">
+                            IT Support
+                        </a><br>
+                        <a href="https://www.reinhardt.edu/current-students/business-office/" class="btn tool-btn-outline" target="_blank">
+                            Business Office
+                        </a><br>
+                        <a href="https://www.reinhardt.edu/admissions-aid/financial-aid/" class="btn tool-btn" target="_blank">
+                            Financial Aid
+                        </a><br>
+                        <a href="https://www.reinhardt.edu/current-students/registrar/" class="btn tool-btn-outline" target="_blank">
+                            Registrar
+                        </a>
+                    </div>
+                </div>
+                <!--Card to direct visitors to eagleweb.-->
+                <div class="col-md-4">
+                    <div class="tool-card shadow">
+                        <h3 class="card-title">EagleWeb</h3>
+                        <p class="card-text">
+                            EagleWeb provides you with your academic information,
+                             financial aid information, housing info, and many more resources.
+                        </p>
+                        <a href="https://eagleweb.reinhardt.edu/ICS/Current_Students/My_Academic_Information/" class="btn tool-btn-outline" target="_blank">
+                            Academic Information
+                        </a><br>
+                        <a href="https://eagleweb.reinhardt.edu/ICS/Current_Students/My_Financial_Aid/" class="btn tool-btn" target="_blank">
+                            Financial Aid
+                        </a><br>
+                        <a href="https://eagleweb.reinhardt.edu/ICS/Current_Students/My_Housing_Information/" class="btn tool-btn-outline" target="_blank">
+                            Housing Information
+                        </a>
+                    </div>
+                </div>
+                <!--Card to direct visitors to Course Catalog.-->
+                <div class="col-md-4">
+                    <div class="tool-card shadow">
+                        <h3 class="card-title">Course Catalog</h3>
+                        <p class="card-text">
+                            Can't decide which courses to register for? Here's the course catalog to 
+                            tell you what to expect.
+                        </p>
+                        <a href="https://www.reinhardt.edu/academics/academic-catalogs/" class="btn tool-btn" target="_blank">
+                            Course Catalog
+                        </a>
+                        <a href="https://eagleweb.reinhardt.edu/ICS/Current_Students/My_Academic_Information/Registrar%27s_Office.jnz?portlet=Registration" class="btn tool-btn-outline" target="_blank">
+                            Add/Drop Courses
+                        </a>
+                    </div>
+                </div>                           
             </div>
         </div>
         <!--This container holds the buttons linking to other pages.-->
         <div class="container d-flex mb-5 justify-content-between">
-            <a class="btn btn-primary btn-lg" href="index.html">Click here to go home</a>
-            <a class="btn btn-primary btn-lg" href="balance-wellness.html">Click here for wellness & balance</a>
+            <a class="btn btn-primary btn-lg mx-2" href="index.html">HOME</a>
+            <a class="btn btn-primary btn-lg mx-2" href="balance-wellness.html">BALANCE & WELLNESS</a>
         </div>
     </div>
     <!--This footer will contain other useful links that can redirect to other resources or other pages.-->
