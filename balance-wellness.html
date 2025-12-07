@@ -1,48 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--This is my home page and it will include sections for the other webpages linked, as well as general information for the student/visitor.-->
+    <!--This is my wellness page and it will include sections for the other webpages linked, as well as general information for the student/visitor.-->
     <title>Balance & Wellness</title>
     <link rel="icon" type="image/x-icon" href="images/plus.jpg">
     <!--This is the connection to bootstrap.-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
     <!--This is the connection to the CSS file.-->
-    <link rel="stylesheet" href ="css/style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
     <div class="container right-cont">
         <!--This is the heading of the wellness & Balance page.-->
         <div class="header">
             <h1 class="head">BALANCE & WELLNESS</h1>
         </div>
-        <!--This section will hold an all in one hub to increase efficacy.-->
+        <!--This section holds an all in one hub to increase efficacy.-->
         <div class="container d-flex justify-content-center justify-content-between welbal-cont">
-            <!--This section will be used to display the calendar API-->
+            <!--This section is used to display the calendar API-->
             <section class="container calendar">
                 <h3>Want a display of the important dates? Here's a calendar with them all.</h3>
+                <iframe 
+                    src="https://calendar.google.com/calendar/embed?src=en.usa%23holiday%40group.v.calendar.google.com&ctz=America/New_York"
+                    style="border:0;" 
+                    width="100%" 
+                    height="400" 
+                    frameborder="0" 
+                    scrolling="no">
+                </iframe>
             </section>
-            <!--This section will hold links related to wellness and balance.-->
+            <!--This section holds links related to wellness and balance.-->
             <section class="container d-flex justify-content-center right-cont">
-                <div class="container facts">
-                    <h3>Here's a random useful tip.</h3>
-                    <button class="btn btn-outline-primary w-25 h-25">CLICK FOR FACT</button>
+                <div class="fact-card">
+                    <h3><i class="bi bi-lightbulb"></i>Here's a random useful tip.</h3>
+                    <p id="factText">(Click for a tip!)</p>
+                    <button id="factBtn" class="btn btn-outline-primary">Show Wellness Tip</button>
+                </div>
+                <div class="quote-card">
+                    <h3><i class="bi bi-chat-quote"></i> Daily Motivation</h3>
+                    <p id="quoteText">(Click the button for a motivational quote!)</p>
+                    <button id="quoteBtn" class="btn btn-outline-primary">Get Quote</button>
                 </div>
                 <div class="container d-flex justify-content-center justify-content-between linkss">
-                    <a class="btn btn-primary btn-lg" href="course-campus-tools.html">Click here for tools</a>
-                    <a class="btn btn-primary btn-lg" href="index.html">Click here to go home</a>                
+                    <a class="btn btn-primary btn-lg" href="course-campus-tools.html">
+                        Click here for tools
+                    </a>
+                    <a class="btn btn-primary btn-lg" href="index.html">Click here to go home</a>
                 </div>
             </section>
         </div>
     </div>
-    <!--This footer will contain other useful links that can redirect to other resources or other pages.-->
-    <footer class="blue-foot">
-        <div class="mr-auto foot">
-            <p>Here are some more links that can help you explore and navigate Reinhardt's resources.</p>
+    <!--This footer contains other useful links that can redirect to other resources or other pages.-->
+    <footer class="myFooter">
+        <div class="left">© 2025 Campus Life Super App</div>
+        <div class="right">
+            <a href="index.html">Home</a>
+            <a href="course-campus-tools.html">Tools</a>
+            <a href="balance-wellness.html">Wellness</a>
+            <a href="http://my.reinhardt.edu/">my.reinhradt.edu</a>
         </div>
     </footer>
     <!--This is the connection to the JavaScript file.-->
-    <script src = "js/script.js"></script>
+    <script src="js/script.js"></script>
 </body>
+
 </html>

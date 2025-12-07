@@ -56,6 +56,25 @@ footer {
     display: flex;
     flex-direction: column;
 }
+.myFooter {
+    background-color: #003468;
+    color: white;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.myFooter a {
+    margin-left: 20px;
+    color: gold;
+    text-decoration: none;
+}
+
+.myFooter a:hover {
+    text-decoration: underline;
+}
+
 /*The following section of code is for the home page*/
 .outpage {
     background-color: gold;
@@ -166,10 +185,29 @@ footer {
 }
 /*The following section of code is for the wellness page*/
 .welbal-cont {
+    padding: 30px;
+    display: flex;
+    gap: 30px;
+    align-items: stretch;
     border: 5px solid black;
     margin-bottom: 45px;
     border-radius: 8px;
     box-shadow: 0 8px 20px rgba(0,0,0,0.7);
+}
+.fact-card {
+    background-color: #003468;
+    color: white;
+    padding: 25px;
+    border-radius: 12px;
+    text-align: center;
+    width: 350px;
+    margin: 20px auto;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+}
+.fact-card button {
+    margin-top: 15px;
+    width: 100%;
+    padding: 10px;
 }
 .calendar {
     background-color: #003468;
@@ -177,4 +215,20 @@ footer {
     height: 500px;
     margin: 20px;
     color: white;
+}
+.quote-card {
+    background-color: #003468;
+    color: white;
+    padding: 25px;
+    border-radius: 12px;
+    text-align: center;
+    width: 350px;
+    margin: 20px auto;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+}
+
+.quote-card button {
+    margin-top: 15px;
+    width: 100%;
+    padding: 10px;
 }
